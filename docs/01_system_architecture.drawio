@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2024-01-11T00:00:00.000Z" agent="5.0" version="22.1.11" etag="test" type="device">
+  <diagram name="System Architecture" id="system-arch">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Mongolia Booking Platform - System Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="CLIENT LAYER" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="1000" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Mobile Web App&#xa;(React + Tailwind)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Business Dashboard&#xa;(React Admin)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="300" y="150" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Future: React Native&#xa;iOS/Android Apps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="API GATEWAY / LOAD BALANCER" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="1000" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Authentication&#xa;Service&#xa;(JWT + OAuth)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Core Booking API&#xa;(NestJS/FastAPI)&#xa;Multi-tenant" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Business Mgmt API&#xa;(Dashboard, Analytics)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="460" y="360" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Payment Service&#xa;(QPay, SocialPay)&#xa;Future: Stripe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Notification Service&#xa;(SMS, Email, Push)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="820" y="360" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="VERTICAL SERVICES (Modular)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="1000" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Restaurant Service&#xa;(Table Booking)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="150" y="560" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Salon Service&#xa;(Appointment Booking)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="560" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Hotel Service&#xa;(Room Booking)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="560" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Tourism Service&#xa;(Activity Booking)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="660" y="560" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="DATA LAYER" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="660" width="1000" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Primary Database&#xa;(PostgreSQL)&#xa;Multi-tenant Schema" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="720" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="Cache Layer&#xa;(Redis)&#xa;Sessions, Search" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="380" y="720" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Analytics DB&#xa;(ClickHouse/BigQuery)&#xa;Future" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="720" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="EXTERNAL INTEGRATIONS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="840" y="500" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Payment Gateways&#xa;QPay, SocialPay&#xa;Most Money" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="860" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="SMS/Email&#xa;Providers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="860" y="640" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="Future: POS/PMS&#xa;Integrations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="860" y="710" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
